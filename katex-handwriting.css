@@ -1,0 +1,184 @@
+/*
+ * KaTeX Handwriting Fonts
+ * Custom handwritten math fonts for KaTeX
+ * 
+ * Usage: Load this CSS AFTER the original KaTeX CSS
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/katex-handwriting.css">
+ */
+
+/* ============================================
+   KaTeX_Main - Primary text font
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Main';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Main-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_Main';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Main-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_Main';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Main-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KaTeX_Main';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Main-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ============================================
+   KaTeX_Math - Math italic font
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Math';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Math-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KaTeX_Math';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Math-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ============================================
+   KaTeX_AMS - AMS symbols
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_AMS';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_AMS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Caligraphic - Calligraphic letters
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Caligraphic';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Caligraphic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_Caligraphic';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Caligraphic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Fraktur - Fraktur/Gothic letters
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Fraktur';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Fraktur-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_Fraktur';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Fraktur-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_SansSerif - Sans-serif font
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_SansSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_SansSerif-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_SansSerif-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* ============================================
+   KaTeX_Script - Script/cursive letters
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Script';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Script-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Typewriter - Monospace font
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Typewriter';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Typewriter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Size1 - Delimiter size 1
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Size1';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Size1-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Size2 - Delimiter size 2
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Size2';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Size2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Size3 - Delimiter size 3
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Size3';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Size3-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================================
+   KaTeX_Size4 - Delimiter size 4
+   ============================================ */
+@font-face {
+  font-family: 'KaTeX_Size4';
+  src: url('https://cdn.jsdelivr.net/gh/anthraxora-ui/test01@main/KaTeX_Size4-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
